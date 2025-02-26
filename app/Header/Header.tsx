@@ -1,5 +1,4 @@
 import { IoIosNotificationsOutline } from "react-icons/io";
-import { IoSettingsOutline } from "react-icons/io5";
 import {
   Avatar,
   AvatarFallback,

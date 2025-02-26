@@ -16,6 +16,7 @@ const DetailsPage = () => {
    const params = useParams();
    const id = params.id 
    console.log(id)
+   if(error) return <p>error occured</p>
 
    const handleShowMissingSkills =()=>{
     if(missingSkills.length > 0 ){

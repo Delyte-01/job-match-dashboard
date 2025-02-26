@@ -3,7 +3,6 @@
 "use client"
 import React from 'react'
 import { useDataContext,Item } from '../context-api/store'
-import Link from 'next/link'
 import JobCard from './JobCard'
 import { Skeleton } from '@/components/ui/skeleton'
 import { Card } from '@/components/ui/card'
@@ -13,7 +12,7 @@ import { Card } from '@/components/ui/card'
 
 const JobContent = () => {
 
- const { data,isLoading ,error } = useDataContext();
+ const { data,isLoading  } = useDataContext();
     
 
 
